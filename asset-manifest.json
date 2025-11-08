@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/scola-app/static/css/main.7e09e0f7.css",
+    "main.js": "/scola-app/static/js/main.7afd17ca.js",
+    "static/js/453.25a9b20d.chunk.js": "/scola-app/static/js/453.25a9b20d.chunk.js",
+    "index.html": "/scola-app/index.html",
+    "main.7e09e0f7.css.map": "/scola-app/static/css/main.7e09e0f7.css.map",
+    "main.7afd17ca.js.map": "/scola-app/static/js/main.7afd17ca.js.map",
+    "453.25a9b20d.chunk.js.map": "/scola-app/static/js/453.25a9b20d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7e09e0f7.css",
+    "static/js/main.7afd17ca.js"
+  ]
+}
