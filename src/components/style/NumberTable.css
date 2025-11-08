@@ -1,0 +1,15 @@
+.numberTable {
+    padding-top: 2vh;
+    
+    margin: 0;
+    text-align: center;
+    justify-self: center;
+    height: 100%;
+}
+
+@media (max-width: 1000px) {
+    .numberTable {
+        max-width: 100vw;
+        width: 90vw;
+    }
+}

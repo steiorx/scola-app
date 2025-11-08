@@ -1,0 +1,57 @@
+:root {
+    --button-color: rgb(44, 44, 44);
+    --button-color-hover: rgb(70, 70, 70);
+    --button-color-active: rgb(100, 100, 100);
+}
+
+.numberDisplay {
+    background-color: rgb(62, 62, 62);
+    border-radius: 5px;
+    align-content: center;
+    width: 90%;
+    justify-self: center;
+}
+
+.numberInput {
+    background: var(--button-color);
+    border: 0;
+    border-radius: 5px;
+    text-align: center;
+    font-size: large;
+    color: white;
+    height: 85%;
+    width: 95%;
+}
+
+.idcrementbutton {
+    background-color: var(--button-color);
+    border: 0;
+    border-radius: 5px;
+    height: 90%;
+    width: 3rem;
+
+    font-size: larger;
+    font-weight: bold;
+    color: rgb(155, 155, 155);
+}
+.idcrementbutton:hover {
+    background-color: var(--button-color-hover);
+    border-color: var(--button-color-hover);
+    transition-duration: 0.3s;
+}
+.idcrementbutton:active {
+    background-color: var(--button-color-active);
+    border-color: var(--button-color-active);
+    transition-duration: 0.2s;
+
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
